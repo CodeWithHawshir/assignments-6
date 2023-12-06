@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <fieldset><legend><strong>Login</strong></legend>
+        <label for="user"><strong>Username*</strong><br><input type="text" name="user" id="user"></label>
+        <div>
+            <label for="password">
+                <strong>Password*</strong><br><input type="password" name="password" id="password">
+            </label>
+        </div>
+    </fieldset><br>
+    <fieldset>
+        <legend><strong>Gender*</strong></legend>
+        <label for="Male"><strong>male</strong><input type="radio" name="gender" id="Male"></label>
+            <label for="Female">
+                <strong>female</strong><input type="radio" name="gender" id="Female">
+            </label>
+    </fieldset>
+    <br><fieldset>
+        <legend><strong>Programming Skill</strong></legend>
+        <label for="java">
+            Java<input type="checkbox" name="java" id="java">
+        </label>
+
+
+        <label for="C++">
+            C++<input type="checkbox" name=" C++" id="C++">
+        </label>
+
+
+        <label for="C#">
+            C#<input type="checkbox" name="C#" id="C#">
+        </label>
+
+    </fieldset>
+    <br>
+    <fieldset>
+<legend><strong>Fruits</strong></legend>
+<label for="fruit"><strong>Choose A Fruit:</strong></label>
+    <select name="fruit" id="fruit">
+<option value="Banana">Banana</option>
+<option value="Apple">Apple</option>
+<option value="Orange">Orange</option>
+
+</select>
+    </fieldset>
+<br>
+    <textarea name="comments" id="comments" cols="60" rows="10">Enter your comment here</textarea>
+   <div>
+
+       <input type="submit" name="Send" value="Send">
+       <input type="reset" name="reset">
+    </div>
+    </body>
+</html>
